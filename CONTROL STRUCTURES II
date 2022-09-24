@@ -1,0 +1,95 @@
+#Series I
+n=int(input())
+for i in range(1,n+1):
+    a=i*i
+    print(a,end=' ')
+    
+    
+#Series II
+n=int(input())
+x=1
+for i in range(1,n+1):
+    a=5*x+1
+    print(a,end=' ')
+    x=x+i
+    
+    
+#Series III
+n=int(input())
+a=3
+for i in range(1,n+1):
+    print(a,end=' ')
+    a=a*3
+    
+    
+#Series IV
+n=int(input())
+a=0.5
+for i in range(1,n+1):
+    print(a,end=' ')
+    a=a*3
+    
+    
+#Series V
+n=int(input())
+a=11
+for i in range(1,n+1):
+    x=a**2
+    print(x,end=' ')
+    a=a+4
+    
+    
+#Series VI
+n=int(input())
+i=1
+pr=0
+while i<=n:
+    if(i%2==0):
+        pr=pow(i, 2) - 2
+        print(pr,end=" ")
+    else:
+        pr = pow(i, 2) - 1
+        print(pr, end=" ")
+    i+=1
+    
+    
+#Series VII
+n=int(input())
+b=2.0
+a=1
+print(a,end=' ')
+print(b,end=' ')
+for i in range(1,n-1):
+    if i%2==0:
+        b=b*3
+        print(b,end=' ')
+    else:
+        a=a*3
+        print(a,end=' ')
+    
+    
+#Series VIII
+n=int(input())
+a=4
+print(a,end=" ")
+for i in range(1,n):
+    a=a+(i**2)
+    print(a,end=" ")
+    
+    
+#Series IX
+n=int(input())
+a=2
+print(a,end=" ")
+for i in range(1,n):
+    a=(a**2)-1
+    print(a,end=" ")
+    
+    
+#Series X
+n=int(input())
+a=95.0
+print(a,end=" ")
+for i in range(0,n*2-2,2):
+    a=a+20.5+i
+    print(a,end=" ")
